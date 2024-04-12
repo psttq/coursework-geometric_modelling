@@ -1,0 +1,18 @@
+deCasteljauForSurface(P, n, m, u0, v0, S)
+{
+    /*Вычисление точки на повехности Безье*/
+    /*[in]: P, n, m, u0, v0*/
+    /*[out]: S (точка)*/
+    if (n <= m)
+    {
+        for(j=0; j<=m; j++) /* P[j][] - j-ая строка */
+            deCasteljau(P[j][], n, u0, Q[j]);
+        deCasteljau(Q, m, v0, S);
+    }
+    else
+    {
+        for(i=0; i<=n; i++)
+            deCasteljau(P[][i], m, v0, Q[i]);
+        deCasteljau(Q, n, u0, S);
+    }
+}
