@@ -12,3 +12,5 @@
 \contentsline {subsection}{\numberline {1.3.1}Рациональные кривые Безье}{8}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Рациональные поверхности Безье}{10}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}B-сплайны}{11}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}B-сплайн кривая}{11}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}B-сплайн поверхности}{15}{subsection.1.4.2}%

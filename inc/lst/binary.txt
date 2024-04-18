@@ -1,0 +1,16 @@
+int FindSpan(n, p, u, U)
+{
+    /* Поиск i-го индекса в векторе узлов*/
+    /*[in]: n, p, u, U*/
+    /*[out]: i*/
+    if(u == U[n+1]) return n; /*Специальный случай*/
+    low = p; high = n+1; /*Бинарный поиск*/
+    mid = (low+high)/2;
+    while(u < U[mid] || u >= U[mid+1])
+    {
+        if(u < U[mid])  high = mid;
+        else            low = mid;
+        mid = (low+high)/2;
+    }
+    return mid;
+}
