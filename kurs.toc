@@ -15,5 +15,8 @@
 \contentsline {subsection}{\numberline {1.4.1}B-сплайн кривая}{11}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Свойства B-сплайна}{15}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}B-сплайн поверхности}{16}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}NURBS}{18}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Рациональный B-сплайн и NURBS}{18}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.5}NURBS}{17}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Рациональный B-сплайн и NURBS}{17}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}NURBS-поверхности}{19}{subsection.1.5.2}%
+\contentsline {chapter}{\numberline {2}Поверхности движения}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Поверхности выдавливания}{21}{section.2.1}%
