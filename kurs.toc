@@ -14,9 +14,15 @@
 \contentsline {section}{\numberline {1.4}B-сплайны}{11}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}B-сплайн кривая}{11}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Свойства B-сплайна}{15}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}B-сплайн поверхности}{16}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}NURBS}{17}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Рациональный B-сплайн и NURBS}{17}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}NURBS-поверхности}{19}{subsection.1.5.2}%
-\contentsline {chapter}{\numberline {2}Поверхности движения}{21}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Поверхности выдавливания}{21}{section.2.1}%
+\contentsline {subsection}{\numberline {1.4.3}Призводные B-сплайн кривой}{16}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}B-сплайн поверхности}{17}{subsection.1.4.4}%
+\contentsline {section}{\numberline {1.5}NURBS}{18}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Рациональный B-сплайн и NURBS}{18}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Производная NURBS-кривой}{20}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}NURBS-поверхности}{22}{subsection.1.5.3}%
+\contentsline {chapter}{\numberline {2}Поверхности движения}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Поверхность выдавливания}{23}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Поверхность вращения}{24}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Поверхность сдвига}{25}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Кинематические поверхности}{26}{section.2.4}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }Алгоритмы}{29}{appendix.1.A}%

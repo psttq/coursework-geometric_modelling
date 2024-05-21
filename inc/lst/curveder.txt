@@ -1,0 +1,17 @@
+  CurveDerivs(n, p, U, P, u, d, CK)
+  {
+    /*Вычисление производных кривой*/
+    /*[in]: n, p, U, P, u, d*/
+    /*[out]: CK*/
+    du = min(d,p);
+    for(k=p+1; k<=d; k++) CK[k]=0.0;
+    spand = FindSpan(n,p,u,U);
+    dersBasisFunc(span, u, p, du, U, nders); // nders - результат функции dersBasisFunc, т.е. производные базисных функций
+    for(k=0; k<=du; k++)                   
+    {
+        CK[k] = 0.0;
+        for(j=0; j<=p; j++){
+            CK[k] = CK[k] + nders[k][j]*P[span-p+j];
+        }
+    }
+  }
