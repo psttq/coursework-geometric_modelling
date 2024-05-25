@@ -1,0 +1,82 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{NURBS}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a4091d2042a4f65c1b237a07f9c67b31}{%
+           family={L.\bibnamedelimi Piegl},
+           familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=a8381c7173e47396f19e51ebea80a111}{%
+           family={W.\bibnamedelimi Tiller},
+           familyi={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e3eb7358822b485c63fea0c3b11657e9}
+      \strng{fullhash}{e3eb7358822b485c63fea0c3b11657e9}
+      \strng{bibnamehash}{e3eb7358822b485c63fea0c3b11657e9}
+      \strng{authorbibnamehash}{e3eb7358822b485c63fea0c3b11657e9}
+      \strng{authornamehash}{e3eb7358822b485c63fea0c3b11657e9}
+      \strng{authorfullhash}{e3eb7358822b485c63fea0c3b11657e9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The NURBS Book}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{Golovanov}{book}{}
+      \name{author}{1}{}{%
+        {{hash=86b1e9bb10a511ed66e6e2bf6a158eb5}{%
+           family={Н.\bibnamedelimi Н.\bibnamedelimi Голованов},
+           familyi={Н\bibinitperiod\bibinitdelim Н\bibinitperiod\bibinitdelim Г\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Издательство Физико-математической литературы}%
+      }
+      \strng{namehash}{86b1e9bb10a511ed66e6e2bf6a158eb5}
+      \strng{fullhash}{86b1e9bb10a511ed66e6e2bf6a158eb5}
+      \strng{bibnamehash}{86b1e9bb10a511ed66e6e2bf6a158eb5}
+      \strng{authorbibnamehash}{86b1e9bb10a511ed66e6e2bf6a158eb5}
+      \strng{authornamehash}{86b1e9bb10a511ed66e6e2bf6a158eb5}
+      \strng{authorfullhash}{86b1e9bb10a511ed66e6e2bf6a158eb5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Геометрическое моделирование}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

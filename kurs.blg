@@ -1,4 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'kurs.blg'
-[36] biber-darwin:340> INFO - === Mon May 13, 2024, 13:57:53
-[46] Biber.pm:419> INFO - Reading 'kurs.bcf'
+[36] biber:340> INFO - === Сб мая 25, 2024, 15:10:35
+[44] Biber.pm:419> INFO - Reading 'kurs.bcf'
+[88] Biber.pm:976> INFO - Using all citekeys in bib section 0
+[96] Biber.pm:4419> INFO - Processing section 0
+[101] Biber.pm:4610> INFO - Looking for bibtex file 'bib.bib' for section 0
+[102] bibtex.pm:1713> INFO - LaTeX decoding ...
+[103] bibtex.pm:1519> INFO - Found BibTeX data source 'bib.bib'
+[121] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[121] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[122] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[122] Biber.pm:4245> INFO - No sort tailoring available for locale 'ru-RU'
+[123] bbl.pm:660> INFO - Writing 'kurs.bbl' with encoding 'UTF-8'
+[123] bbl.pm:763> INFO - Output to kurs.bbl
