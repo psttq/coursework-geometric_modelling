@@ -1,4 +1,18 @@
 \documentclass{bmstu}
+\usepackage{tocloft}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+%нужные мне штучки
+\usepackage{relsize}
+\newcommand{\Christoffel}{\ensuremath{\mathlarger{\mathlarger\Gamma}}}
+
+\usepackage{stackengine,scalerel}
+\newcommand\overstarbf[1]{\ThisStyle{\ensurestackMath{%
+			\stackengine{0pt}{\SavedStyle\mathbf{#1}}{\smash{\SavedStyle*}}{O}{c}{F}{T}{S}}}}
+\newcommand\overstar[1]{\ThisStyle{\ensurestackMath{%
+			\setbox0=\hbox{$\SavedStyle#1$}%
+			\stackengine{0pt}{\copy0}{\kern.2\ht0\smash{\SavedStyle*}}{O}{c}{F}{T}{S}}}}
 
 
 \bibliography{bib}
@@ -9,7 +23,19 @@
 {\begin{itemize}[label=---,itemindent=\parindent,leftmargin=0pt]}
 	{\end{itemize}}
 
-
+    \renewcommand{\maketableofcontents}
+    {
+        \setlength{\cftbeforetoctitleskip}{-2em}
+        \setlength{\cftaftertoctitleskip}{0em}
+        \renewcommand\contentsname{
+            \normalsize \centerline{\MakeUppercase{Содержание}}\hfill c.
+        }
+        %\singlespacing
+        \begin{singlespace}
+            \tableofcontents
+        \end{singlespace}
+    }
+    
 \begin{document}
 
 \makecourseworktitle
@@ -444,7 +470,7 @@ B-сплайнов и базисов. При $\omega_i \ge 0$ для всех $i
     \item рациональный B-сплайн степени $p$ имеет непрерывность $C^{p-1}$;
     \item максимальная степень рационального B-сплайна равна количеству контрольных точек минус 1;
     \item если $u\in[u_i, u_{i+1})$, то $\mathbf{C}(u)$ находится в пределах выпуклой оболочки, составленной из контрольных точек $\mathbf{P}_{i-p},\dots,\mathbf{P}_{i}$;
-    \item свойство локальности $R_{i,p}(u)=0$ для $u\notin[u_i, u_{i+p+1})$. Если $u\in[u_i, u_{i+1})$, только функции $R_{i-p, p},\dots,R_{i,p}$ являются ненулевыми.
+    \item свойство локальности $R_{i,p}(u)=0$ для $u\notin[u_i, u_{i+p+1})$. Если $u\in[u_i, u_{i+1})$, только функции $R_{i-p, p},\dots,R_{i,p}$ являются ненулевыми;
     \item аффинная и перспективная инвариантность: применяемое к кривой
     преобразование можно свести к преобразованию только ее
     контрольных точек;

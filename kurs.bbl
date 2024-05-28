@@ -76,6 +76,96 @@
       \field{dateera}{ce}
       \true{nocite}
     \endentry
+    \entry{Bojko}{book}{}
+      \name{author}{3}{}{%
+        {{hash=4bbf6b882c675a1a8597ef8398bb2623}{%
+           family={А.\bibnamedelimi Н.\bibnamedelimi Божко},
+           familyi={А\bibinitperiod\bibinitdelim Н\bibinitperiod\bibinitdelim Б\bibinitperiod}}}%
+        {{hash=a8565264c296050c6653f2ca579fe8ef}{%
+           family={Д.\bibnamedelimi М.\bibnamedelimi Жук},
+           familyi={Д\bibinitperiod\bibinitdelim М\bibinitperiod\bibinitdelim Ж\bibinitperiod}}}%
+        {{hash=70463e714c777d1d5f70fee288c090fa}{%
+           family={В.\bibnamedelimi Б.\bibnamedelimi Маничев},
+           familyi={В\bibinitperiod\bibinitdelim Б\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Издательство МГТУ им. Н. Э. Баумана}%
+      }
+      \strng{namehash}{32459c4b944b71ab7973998d95584a87}
+      \strng{fullhash}{32459c4b944b71ab7973998d95584a87}
+      \strng{bibnamehash}{32459c4b944b71ab7973998d95584a87}
+      \strng{authorbibnamehash}{32459c4b944b71ab7973998d95584a87}
+      \strng{authornamehash}{32459c4b944b71ab7973998d95584a87}
+      \strng{authorfullhash}{32459c4b944b71ab7973998d95584a87}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Компьютерная графика : учеб. пособие для вузов}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{Hern}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c33837e657c1e4b30901dcadacf41c52}{%
+           family={Д.\bibnamedelimi Херн},
+           familyi={Д\bibinitperiod\bibinitdelim Х\bibinitperiod}}}%
+        {{hash=f81163f922d90a058c31f19dab715435}{%
+           family={М.\bibnamedelimi П.\bibnamedelimi Бейкер},
+           familyi={М\bibinitperiod\bibinitdelim П\bibinitperiod\bibinitdelim Б\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Москва}%
+      }
+      \list{publisher}{1}{%
+        {Издательский дом "Вильямся"}%
+      }
+      \strng{namehash}{2cfbf7ea3bf59fc33e2990b30d59a103}
+      \strng{fullhash}{2cfbf7ea3bf59fc33e2990b30d59a103}
+      \strng{bibnamehash}{2cfbf7ea3bf59fc33e2990b30d59a103}
+      \strng{authorbibnamehash}{2cfbf7ea3bf59fc33e2990b30d59a103}
+      \strng{authornamehash}{2cfbf7ea3bf59fc33e2990b30d59a103}
+      \strng{authorfullhash}{2cfbf7ea3bf59fc33e2990b30d59a103}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Компьютерная графика и стандарт OpenGL}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{Kosn}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e239d56d9baf916e7a1b303abfd6c24b}{%
+           family={Ю.\bibnamedelimi Н.\bibnamedelimi Косников},
+           familyi={Ю\bibinitperiod\bibinitdelim Н\bibinitperiod\bibinitdelim К\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Пенза}%
+      }
+      \list{publisher}{1}{%
+        {Издательство ПГУ}%
+      }
+      \strng{namehash}{e239d56d9baf916e7a1b303abfd6c24b}
+      \strng{fullhash}{e239d56d9baf916e7a1b303abfd6c24b}
+      \strng{bibnamehash}{e239d56d9baf916e7a1b303abfd6c24b}
+      \strng{authorbibnamehash}{e239d56d9baf916e7a1b303abfd6c24b}
+      \strng{authornamehash}{e239d56d9baf916e7a1b303abfd6c24b}
+      \strng{authorfullhash}{e239d56d9baf916e7a1b303abfd6c24b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Геометрические преобразования в компьютерной графике}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
